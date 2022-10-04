@@ -1,0 +1,16 @@
+img.thumb {
+    float:left;
+}
+
+img.navbar {
+    float: left;
+}
+
+ul > li {
+    display: inline;
+}
+
+section.image {
+    margin: auto;
+    padding: 75px 10px;
+}
