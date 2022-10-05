@@ -1,8 +1,4 @@
-img.thumb {
-    float:left;
-}
-
-img.navbar {
+img.logo {
     float: left;
 }
 
@@ -10,7 +6,25 @@ ul > li {
     display: inline;
 }
 
-section.image {
-    margin: auto;
-    padding: 75px 10px;
+section.sourceDescr {
+    display: block;
+    margin: 10px;
+    padding: 10px 10px;
+}
+
+img.thumb {
+    float: left;
+}
+
+p.descr {
+    width: 500px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+}
+
+a.srcHead {
+    text-align: center;
+    padding: 10px 10px;
 }
