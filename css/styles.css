@@ -4,7 +4,7 @@
 }
 
 body {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     margin: none;
@@ -14,6 +14,17 @@ header, nav ul {
     /* width: 90%; */
     margin-left: 45px;
     margin-right: 45px;
+}
+
+main {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+footer {
+    margin-left: 45px;
+    margin-right: 45px;
+    color: #009000;
 }
 
 a {
@@ -69,15 +80,6 @@ li a:hover {
 }
 
 /*Home Page*/
-.start {
-    font-size: 20px;
-}
-
-main {
-    margin-left: 45px;
-    margin-right: 45px;
-}
-
 .overviewHeading h2 {
     color: #009000;
 }
