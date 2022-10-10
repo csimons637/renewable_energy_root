@@ -11,10 +11,9 @@ body {
 }
 
 header, nav ul {
-    width: 90%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    /* width: 90%; */
+    margin-left: 45px;
+    margin-right: 45px;
 }
 
 a {
@@ -70,11 +69,32 @@ li a:hover {
 }
 
 /*Home Page*/
+.start {
+    font-size: 20px;
+}
+
 main {
     margin-left: 45px;
     margin-right: 45px;
 }
 
-section {
-    /*Need image to left, then hyperlink top-right, and text bottom right (both centered)*/
+.overviewHeading h2 {
+    color: #009000;
+}
+
+div.imgBase {
+    float: left;
+}
+
+.home {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image {
+    width: 325px;
+}
+
+#blurb {
+    width: 450px;
 }
