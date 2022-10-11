@@ -107,3 +107,12 @@ div.imgBase {
 #blurb {
     width: 450px;
 }
+
+/*Energy Sources*/
+#sources img {
+    float: left;
+}
+
+#sources {
+    width: 650px;
+}
