@@ -109,10 +109,56 @@ div.imgBase {
 }
 
 /*Energy Sources*/
-#sources img {
+/*Energy Sources - Diagram*/
+.srcDiagram {
+    display: block;
     float: left;
+    margin: auto;
+    padding-right: 10px;
 }
 
-#sources {
-    width: 650px;
+.srcDiagram img {
+    display: block;
+}
+
+/*Energy Sources - Basics*/
+.basics {
+    display: block;
+}
+
+.basics p {
+
+}
+
+.basics h3 {
+    color: #009000;
+}
+
+/*Nuclear - RTG Subsection*/
+.rtg {
+    border: #009000;
+    border-width: 5px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.rtg #rtg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.rtg #descr {
+    display: inline-block;
+}
+
+/*Energy Sources - Safety*/
+.safety h3 {
+    color: #009000;
+}
+
+.safety {
+    display: block;
+    margin: auto;
 }
