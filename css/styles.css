@@ -4,7 +4,7 @@
 }
 
 body {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.5;
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     margin: none;
@@ -78,7 +78,7 @@ li a {
     padding: 1rem;
     text-decoration: none;
     color: white;
-    text-emphasis: bold;
+    font-weight: bold;
 }
 
 li a:hover {
@@ -111,6 +111,10 @@ div.imgBase {
 /*Energy Sources*/
 main.source section {
     display: block;
+}
+
+td {
+    display: flex;
 }
 
 /*Energy Sources - Diagram*/
@@ -165,6 +169,11 @@ main.source section {
 .safety {
     display: block;
     margin: auto;
+}
+
+/*Energy Sources - Environmental Impacts*/
+.impacts h3 {
+    color: #009000;
 }
 
 /*Representatives Page - Form*/
