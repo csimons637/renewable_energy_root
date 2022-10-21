@@ -7,6 +7,15 @@
         <link href="./css/styles.css" rel="stylesheet">
     </head>
 
+    <!--Embedded CSS for the form's input field-->
+    <style>
+        form input {
+            display: block;
+            margin: 5px 0;
+            padding: 5px;
+        }
+    </style>
+
     <body>
         <header>
             <!--Add website logo here-->
@@ -35,7 +44,7 @@
             </div>
             <!--Start form fields here-->
             <div>
-                <form>
+                <form style="margin: 5px 0;"> <!--Inline CSS for the form's text label top margins-->
                     <label for="state">Enter Your State of Residence</label>
                     <input type="text" name="state" id="state">
                     <label for="county">Enter Your County</label>
