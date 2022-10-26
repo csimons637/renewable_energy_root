@@ -91,8 +91,23 @@ li a:hover {
     color: #009000;
 }
 
-div.imgBase {
+div.srcContainer {
+    width: 97%; /*Adjust for horizontal content centering*/
+    margin: auto;
+    display: grid;
+    gap: 45px 90px;
+    grid-template-columns: auto auto;
+}
+
+div.srcDescr p {
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+}
+
+div.srcDescr img.thumb {
     float: left;
+    padding-right: 15px;
 }
 
 .home {
@@ -132,10 +147,6 @@ td {
 /*Energy Sources - Basics*/
 .basics {
     display: block;
-}
-
-.basics p {
-
 }
 
 .basics h3 {
