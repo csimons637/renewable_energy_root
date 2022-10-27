@@ -23,6 +23,8 @@ main {
 
 footer {
     margin-top: 90px;
+    color: #009000;
+    text-align: center;
 }
 
 footer h5 {
@@ -95,8 +97,13 @@ div.srcContainer {
     width: 97%; /*Adjust for horizontal content centering*/
     margin: auto;
     display: grid;
-    gap: 45px 90px;
     grid-template-columns: auto auto;
+    gap: auto auto;
+}
+
+div.srcDescr {
+    width: 750px;
+    height: 275px;
 }
 
 div.srcDescr p {
@@ -107,7 +114,8 @@ div.srcDescr p {
 
 div.srcDescr img.thumb {
     float: left;
-    padding-right: 15px;
+    border-radius: 10px;
+    margin-right: 15px;
 }
 
 .home {
