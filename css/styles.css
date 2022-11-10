@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+html {
+    width: auto;
+}
+
 body {
     font-size: 16px;
     line-height: 1.5;
@@ -86,12 +90,12 @@ li a {
 }
 
 li a:hover {
-    background-color: black;
-    color: #9ae39a;
+    background-color: #3dd83d;
+    color: white;
 }
 
 /*Home Page*/
-.overviewHeading h2 {
+.overviewHeading h1 {
     color: #009000;
 }
 
@@ -159,7 +163,7 @@ td {
     display: block;
 }
 
-.basics h3 {
+.basics h2 {
     color: #009000;
 }
 
@@ -183,7 +187,7 @@ td {
 }
 
 /*Energy Sources - Safety*/
-.safety h3 {
+.safety h2 {
     color: #009000;
 }
 
@@ -193,7 +197,7 @@ td {
 }
 
 /*Energy Sources - Environmental Impacts*/
-.impacts h3 {
+.impacts h2 {
     color: #009000;
 }
 
