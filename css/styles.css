@@ -102,9 +102,11 @@ li a:hover {
 div.srcContainer {
     width: 97%; /*Adjust for horizontal content centering*/
     margin: auto;
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* grid-template-columns: auto auto;
+    gap: auto auto; */
 }
 
 div.srcDescr {
