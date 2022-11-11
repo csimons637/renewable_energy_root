@@ -170,14 +170,27 @@ td {
 }
 
 /*Nuclear - RTG Subsection*/
-.rtg {
-    border: #009000;
-    border-width: 5px;
-    margin-left: 45px;
-    margin-right: 45px;
+#rtg h2 {
+    color: #009000;
 }
 
 #rtg {
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#descr {
+    display: inline;
+}
+
+/*Geothermal - Heating Subsection*/
+#geoHeat h2 {
+    color: #009000;
+}
+
+#geoHeat {
     float: left;
     display: block;
     margin-left: auto;
