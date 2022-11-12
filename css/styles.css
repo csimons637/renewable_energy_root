@@ -197,8 +197,16 @@ td {
     margin-right: auto;
 }
 
-#descr {
-    display: inline;
+/*Wind - Windmill Subection*/
+#windmill h2 {
+    color: #009000;
+}
+
+#windmill {
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Energy Sources - Safety*/
@@ -208,7 +216,6 @@ td {
 
 .safety {
     display: block;
-    margin: auto;
 }
 
 /*Energy Sources - Environmental Impacts*/
