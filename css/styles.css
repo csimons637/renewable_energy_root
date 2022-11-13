@@ -27,7 +27,7 @@ main {
 
 footer {
     margin-top: 90px;
-    color: #009000;
+    color: #004D00;
     text-align: center;
 }
 
@@ -37,12 +37,12 @@ footer h5 {
     text-decoration: solid;
     margin-left: 45px;
     margin-right: 45px;
-    color: #009000;
+    color: #004D00;
 }
 
 a {
     text-decoration: none;
-    color: #009000;
+    color: #004D00;
 }
 
 a:hover {
@@ -63,7 +63,7 @@ header {
 header h1 {
     padding-top: 30px;
     padding-left: 100px;
-    color: #009000;
+    color: #004D00;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -74,7 +74,7 @@ nav ul {
 
 /*Navbar*/
 nav {
-    background-color: #009000;
+    background-color: #004D00;
 }
 
 nav li {
@@ -96,7 +96,7 @@ li a:hover {
 
 /*Home Page*/
 .overviewHeading h1 {
-    color: #009000;
+    color: #004D00;
 }
 
 div.srcContainer {
@@ -166,12 +166,12 @@ td {
 }
 
 .basics h2 {
-    color: #009000;
+    color: #004D00;
 }
 
 /*Nuclear - RTG Subsection*/
 #rtg h2 {
-    color: #009000;
+    color: #004D00;
 }
 
 #rtg {
@@ -187,7 +187,7 @@ td {
 
 /*Geothermal - Heating Subsection*/
 #geoHeat h2 {
-    color: #009000;
+    color: #004D00;
 }
 
 #geoHeat {
@@ -199,7 +199,7 @@ td {
 
 /*Wind - Windmill Subection*/
 #windmill h2 {
-    color: #009000;
+    color: #004D00;
 }
 
 #windmill {
@@ -211,7 +211,7 @@ td {
 
 /*Energy Sources - Safety*/
 .safety h2 {
-    color: #009000;
+    color: #004D00;
 }
 
 .safety {
@@ -220,7 +220,7 @@ td {
 
 /*Energy Sources - Environmental Impacts*/
 .impacts h2 {
-    color: #009000;
+    color: #004D00;
 }
 
 /*Representatives Page - Form*/
